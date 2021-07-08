@@ -1,0 +1,23 @@
+//
+//  ViewController.swift
+//  Official Election App
+//
+//  Created by Central States SER Mac 15 on 7/16/20.
+//  Copyright © 2020 Central States SER Mac 15. All rights reserved.
+//
+
+import UIKit
+
+class ViewController: UIViewController {
+    override func viewDidLoad() {
+        
+        
+        
+    
+        // Do any additional setup after loading the view.
+    }
+
+
+}
+
+

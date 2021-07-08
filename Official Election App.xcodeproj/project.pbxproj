@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		74244F9424D07D2B000345C8 /* RepublicanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74244F9324D07D2B000345C8 /* RepublicanViewController.swift */; };
+		74244F9624D07DDF000345C8 /* DemocratViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74244F9524D07DDF000345C8 /* DemocratViewController.swift */; };
+		74244F9824D07F0A000345C8 /* NeutralViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74244F9724D07F0A000345C8 /* NeutralViewController.swift */; };
+		7462B16624CA06B300197DB4 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7462B16524CA06B300197DB4 /* MapViewController.swift */; };
+		7473464924DAF3E100EAB1BB /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7473464824DAF3E100EAB1BB /* ResultsViewController.swift */; };
+		7473464B24E1911200EAB1BB /* VotingOptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7473464A24E1911200EAB1BB /* VotingOptionsViewController.swift */; };
+		748336C324D8CC5900BB9177 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748336C224D8CC5900BB9177 /* QuizViewController.swift */; };
+		748336E724D9C2F100BB9177 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748336E624D9C2F100BB9177 /* Question.swift */; };
+		748336E924D9C58300BB9177 /* QuestionBlank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748336E824D9C58300BB9177 /* QuestionBlank.swift */; };
+		8516150C24CA20EA0062500B /* CopyOfApp in Resources */ = {isa = PBXBuildFile; fileRef = 8516150B24CA20EA0062500B /* CopyOfApp */; };
+		853FF43724E1BE8C0075AA6D /* donaldTrumpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853FF43624E1BE8C0075AA6D /* donaldTrumpViewController.swift */; };
+		853FF43924E1BEBD0075AA6D /* joeBidenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853FF43824E1BEBD0075AA6D /* joeBidenViewController.swift */; };
+		853FF43B24E1D98C0075AA6D /* JBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853FF43A24E1D98C0075AA6D /* JBViewController.swift */; };
+		853FF43D24E1DA2C0075AA6D /* BruceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853FF43C24E1DA2C0075AA6D /* BruceViewController.swift */; };
+		853FF43F24E1DAD60075AA6D /* LoriViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853FF43E24E1DAD60075AA6D /* LoriViewController.swift */; };
+		853FF44124E1DB540075AA6D /* ToniViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853FF44024E1DB540075AA6D /* ToniViewController.swift */; };
+		85F87F8A24C0E57F00CBA89F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F87F8924C0E57F00CBA89F /* AppDelegate.swift */; };
+		85F87F8C24C0E57F00CBA89F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F87F8B24C0E57F00CBA89F /* SceneDelegate.swift */; };
+		85F87F8E24C0E57F00CBA89F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F87F8D24C0E57F00CBA89F /* ViewController.swift */; };
+		85F87F9124C0E57F00CBA89F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85F87F8F24C0E57F00CBA89F /* Main.storyboard */; };
+		85F87F9324C0E58000CBA89F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85F87F9224C0E58000CBA89F /* Assets.xcassets */; };
+		85F87F9624C0E58000CBA89F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85F87F9424C0E58000CBA89F /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		74244F9324D07D2B000345C8 /* RepublicanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepublicanViewController.swift; sourceTree = "<group>"; };
+		74244F9524D07DDF000345C8 /* DemocratViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemocratViewController.swift; sourceTree = "<group>"; };
+		74244F9724D07F0A000345C8 /* NeutralViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeutralViewController.swift; sourceTree = "<group>"; };
+		7462B16524CA06B300197DB4 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		7473464824DAF3E100EAB1BB /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		7473464A24E1911200EAB1BB /* VotingOptionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VotingOptionsViewController.swift; sourceTree = "<group>"; };
+		748336C224D8CC5900BB9177 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		748336E624D9C2F100BB9177 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		748336E824D9C58300BB9177 /* QuestionBlank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionBlank.swift; sourceTree = "<group>"; };
+		8516150B24CA20EA0062500B /* CopyOfApp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CopyOfApp; sourceTree = "<group>"; };
+		853FF43624E1BE8C0075AA6D /* donaldTrumpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = donaldTrumpViewController.swift; sourceTree = "<group>"; };
+		853FF43824E1BEBD0075AA6D /* joeBidenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = joeBidenViewController.swift; sourceTree = "<group>"; };
+		853FF43A24E1D98C0075AA6D /* JBViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JBViewController.swift; sourceTree = "<group>"; };
+		853FF43C24E1DA2C0075AA6D /* BruceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BruceViewController.swift; sourceTree = "<group>"; };
+		853FF43E24E1DAD60075AA6D /* LoriViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoriViewController.swift; sourceTree = "<group>"; };
+		853FF44024E1DB540075AA6D /* ToniViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToniViewController.swift; sourceTree = "<group>"; };
+		85F87F8624C0E57F00CBA89F /* Official Election App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Official Election App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		85F87F8924C0E57F00CBA89F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		85F87F8B24C0E57F00CBA89F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		85F87F8D24C0E57F00CBA89F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		85F87F9024C0E57F00CBA89F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		85F87F9224C0E58000CBA89F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		85F87F9524C0E58000CBA89F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		85F87F9724C0E58000CBA89F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		85F87F8324C0E57F00CBA89F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		85F87F7D24C0E57F00CBA89F = {
+			isa = PBXGroup;
+			children = (
+				85F87F8824C0E57F00CBA89F /* Official Election App */,
+				85F87F8724C0E57F00CBA89F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		85F87F8724C0E57F00CBA89F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				85F87F8624C0E57F00CBA89F /* Official Election App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		85F87F8824C0E57F00CBA89F /* Official Election App */ = {
+			isa = PBXGroup;
+			children = (
+				85F87F8924C0E57F00CBA89F /* AppDelegate.swift */,
+				85F87F8B24C0E57F00CBA89F /* SceneDelegate.swift */,
+				85F87F8D24C0E57F00CBA89F /* ViewController.swift */,
+				74244F9324D07D2B000345C8 /* RepublicanViewController.swift */,
+				8516150B24CA20EA0062500B /* CopyOfApp */,
+				85F87F8F24C0E57F00CBA89F /* Main.storyboard */,
+				853FF43E24E1DAD60075AA6D /* LoriViewController.swift */,
+				853FF44024E1DB540075AA6D /* ToniViewController.swift */,
+				853FF43A24E1D98C0075AA6D /* JBViewController.swift */,
+				853FF43C24E1DA2C0075AA6D /* BruceViewController.swift */,
+				853FF43824E1BEBD0075AA6D /* joeBidenViewController.swift */,
+				853FF43624E1BE8C0075AA6D /* donaldTrumpViewController.swift */,
+				7473464A24E1911200EAB1BB /* VotingOptionsViewController.swift */,
+				748336C224D8CC5900BB9177 /* QuizViewController.swift */,
+				7473464824DAF3E100EAB1BB /* ResultsViewController.swift */,
+				748336E624D9C2F100BB9177 /* Question.swift */,
+				748336E824D9C58300BB9177 /* QuestionBlank.swift */,
+				74244F9724D07F0A000345C8 /* NeutralViewController.swift */,
+				74244F9524D07DDF000345C8 /* DemocratViewController.swift */,
+				7462B16524CA06B300197DB4 /* MapViewController.swift */,
+				85F87F9224C0E58000CBA89F /* Assets.xcassets */,
+				85F87F9424C0E58000CBA89F /* LaunchScreen.storyboard */,
+				85F87F9724C0E58000CBA89F /* Info.plist */,
+			);
+			path = "Official Election App";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		85F87F8524C0E57F00CBA89F /* Official Election App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85F87F9A24C0E58000CBA89F /* Build configuration list for PBXNativeTarget "Official Election App" */;
+			buildPhases = (
+				85F87F8224C0E57F00CBA89F /* Sources */,
+				85F87F8324C0E57F00CBA89F /* Frameworks */,
+				85F87F8424C0E57F00CBA89F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Official Election App";
+			productName = "Official Election App";
+			productReference = 85F87F8624C0E57F00CBA89F /* Official Election App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		85F87F7E24C0E57F00CBA89F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Central States SER Mac 15";
+				TargetAttributes = {
+					85F87F8524C0E57F00CBA89F = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 85F87F8124C0E57F00CBA89F /* Build configuration list for PBXProject "Official Election App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 85F87F7D24C0E57F00CBA89F;
+			productRefGroup = 85F87F8724C0E57F00CBA89F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				85F87F8524C0E57F00CBA89F /* Official Election App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		85F87F8424C0E57F00CBA89F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85F87F9624C0E58000CBA89F /* LaunchScreen.storyboard in Resources */,
+				85F87F9324C0E58000CBA89F /* Assets.xcassets in Resources */,
+				8516150C24CA20EA0062500B /* CopyOfApp in Resources */,
+				85F87F9124C0E57F00CBA89F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		85F87F8224C0E57F00CBA89F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7473464924DAF3E100EAB1BB /* ResultsViewController.swift in Sources */,
+				85F87F8E24C0E57F00CBA89F /* ViewController.swift in Sources */,
+				74244F9824D07F0A000345C8 /* NeutralViewController.swift in Sources */,
+				853FF43724E1BE8C0075AA6D /* donaldTrumpViewController.swift in Sources */,
+				853FF43D24E1DA2C0075AA6D /* BruceViewController.swift in Sources */,
+				74244F9624D07DDF000345C8 /* DemocratViewController.swift in Sources */,
+				748336E724D9C2F100BB9177 /* Question.swift in Sources */,
+				853FF43F24E1DAD60075AA6D /* LoriViewController.swift in Sources */,
+				748336C324D8CC5900BB9177 /* QuizViewController.swift in Sources */,
+				85F87F8A24C0E57F00CBA89F /* AppDelegate.swift in Sources */,
+				853FF44124E1DB540075AA6D /* ToniViewController.swift in Sources */,
+				748336E924D9C58300BB9177 /* QuestionBlank.swift in Sources */,
+				85F87F8C24C0E57F00CBA89F /* SceneDelegate.swift in Sources */,
+				853FF43B24E1D98C0075AA6D /* JBViewController.swift in Sources */,
+				74244F9424D07D2B000345C8 /* RepublicanViewController.swift in Sources */,
+				7473464B24E1911200EAB1BB /* VotingOptionsViewController.swift in Sources */,
+				853FF43924E1BEBD0075AA6D /* joeBidenViewController.swift in Sources */,
+				7462B16624CA06B300197DB4 /* MapViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		85F87F8F24C0E57F00CBA89F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85F87F9024C0E57F00CBA89F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		85F87F9424C0E58000CBA89F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85F87F9524C0E58000CBA89F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		85F87F9824C0E58000CBA89F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		85F87F9924C0E58000CBA89F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		85F87F9B24C0E58000CBA89F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Official Election App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Dev.Daniela.Official-Election-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		85F87F9C24C0E58000CBA89F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Official Election App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Dev.Daniela.Official-Election-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		85F87F8124C0E57F00CBA89F /* Build configuration list for PBXProject "Official Election App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85F87F9824C0E58000CBA89F /* Debug */,
+				85F87F9924C0E58000CBA89F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85F87F9A24C0E58000CBA89F /* Build configuration list for PBXNativeTarget "Official Election App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85F87F9B24C0E58000CBA89F /* Debug */,
+				85F87F9C24C0E58000CBA89F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 85F87F7E24C0E57F00CBA89F /* Project object */;
+}
